@@ -50,34 +50,34 @@ The `CoilCell` library offers a range of functions to control the coil. Below ar
      ```
 
 #### 4. **Drive:** `Drive(bool direction, uint8_t power_percent)`
-   - **Description for ESP32:** Controls the speed and direction of a motor or the polarity of a coil using PWM.
+   - **Description for ESP32:** Controls the speed and polarity of a coil using PWM.
    - **Examples:**
      ```cpp
      myCoilCell.Drive(true, 75);  // Drive forward at 75% power
      ```
 
 #### 5. **Bounce:** `Bounce(bool direction, uint8_t ms_duration)`
-   - **Description:** Creates a short bounce motion by quickly reversing polarity or motor direction for the specified duration.
+   - **Description:** Creates a short bounce motion by quickly reversing polarity for the specified duration.
    - **Example:**
      ```cpp
      myCoilCell.Bounce(true, 10);  // Bounce in one direction for 10 milliseconds
      ```
 
 #### 6. **Tone:** `Tone()`
-   - **Description:** Plays a tone by continuously toggling the motor state with varying frequencies, useful for generating audible feedback.
+   - **Description:** Plays a tone by continuously toggling the coil state with varying frequencies, useful for generating audible feedback.
    - **Example:**
      ```cpp
      myCoilCell.Tone();  // Play a tone with varying frequencies
      ```
 
 #### 7. **Toggle:** `Toggle(uint8_t power_percent)`
-   - **Description for ESP32:** Toggles the polarity of the coil or motor direction at the desired duty cycle using PWM.
+   - **Description for ESP32:** Toggles the polarity of the coil at the desired duty cycle using PWM.
    - **Examples:**
      ```cpp
      myCoilCell.Toggle(50);  // Toggle direction at 50% power
      ```
      
-   - **Description for Other Arduino Devices:** Toggles polarity or motor direction using simple GPIO toggling.
+   - **Description for Other Arduino Devices:** Toggles polarity using simple GPIO toggling.
    - **Examples:**
      ```cpp
      myCoilCell.Toggle();    // Toggle direction or polarity
