@@ -1,7 +1,7 @@
 
 # CoilCell
 
-<img src="[https://microbots.io/cdn/shop/files/P1098499_765e4081-5032-4a81-8611-a96e68ad8f4c_400x.jpg?v=1720079418](https://microbots.io/cdn/shop/files/Nested_Sequence_03_e227c59e-7aca-41ed-a461-46ba8b399653_2048x.gif?v=1720605730)" alt="CoilCell" width="300" align="right" style="margin-left: 20px;">
+<img src="https://microbots.io/cdn/shop/files/Untitled-Copy_2048x.png?v=1720532841" alt="CoilCell" width="300" align="right" style="margin-left: 20px;">
 CoilCell is a thin and compact PCB coil with an integrated driver, designed for easy integration with microcontrollers to control magnetic strength and polarity. Ideal for adding motion to magnets in your DIY projects. The CoilCell Library is available for download on both Github and the Arduino Library manager. Basic functions work on all Arduino boards + optimized PWM functions for CodeCell & other ESP32 devices.
 
 ## Getting Started with the CoilCell Library
