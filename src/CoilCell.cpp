@@ -35,6 +35,9 @@ void CoilCell::Init() {
   } else {
     /*Skip*/
   }
+  Serial.print(">> CoilCell");
+  Serial.print(cc_num);
+  Serial.println(": Ready to Use");
 }
 
 void CoilCell::Vibrate(bool smooth, uint8_t power_percent, uint16_t vib_speed_ms) {
